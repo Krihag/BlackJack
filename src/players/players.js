@@ -1,15 +1,6 @@
 const player = document.querySelector(".cards-player");
 const computer = document.querySelector(".cards-computer");
 
-// const Player = {
-//   name: "",
-//   cards: [],
-//   cardValue: 0,
-//   numCards: 0,
-//   totalWins: 0,
-//   cardContainer: document.querySelector(".cards-player"),
-// };
-
 function Player(name, className) {
   (this.name = name),
     (this.cards = []),
