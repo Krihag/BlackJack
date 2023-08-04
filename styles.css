@@ -10,7 +10,7 @@ body {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .game-text {
@@ -19,6 +19,7 @@ body {
 }
 .options-container {
   padding: 20px;
+  min-height: 100px;
 }
 
 .options-container button {
