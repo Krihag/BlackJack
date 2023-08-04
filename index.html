@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="/src/script.js" type="module"></script>
+  </head>
+  <body>
+    <div class="dealer"></div>
+
+    <div class="game-text-container">
+      <div class="card-draw-text">Test</div>
+      <div class="game-text">Want to play BlackJack?</div>
+      <div class="options-container">
+        <button class="option-1">Deal Cards</button>
+      </div>
+    </div>
+
+    <div class="players-container">
+      <div class="player">
+        <h2>Player:</h2>
+        <h3 class="score-container">
+          Total Value: <span class="score">0</span>
+        </h3>
+        <div class="cards-container cards-player"></div>
+      </div>
+      <div class="computer">
+        <h2>Computer:</h2>
+        <h3 class="score-container">
+          Total Value: <span class="score">0</span>
+        </h3>
+        <div class="cards-container cards-computer"></div>
+      </div>
+    </div>
+  </body>
+</html>
