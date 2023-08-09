@@ -1,10 +1,10 @@
 import createCard from "../cards/createCard/createCard.js";
-import updateScore from "./updateScore.js";
+import updateScore from "../players/updateScore.js";
 import displayCard from "../cards/displayCard.js";
-import blackJackScore from "../gameLogic/gameEndConditions/blackJackScore.js";
+import blackJackScore from "./gameEndConditions/blackJackScore.js";
 import drawCardBtns from "../gameButtons/drawCardBtns.js";
-import checkIfComputerDraw from "../gameLogic/checkIfComputerDraw.js";
-import delay from "../gameLogic/delay.js";
+import checkIfComputerDraw from "./checkIfComputerDraw.js";
+import delay from "./delay.js";
 
 const [playerScore, computerScore] = document.querySelectorAll(".score");
 const gameText = document.querySelector(".game-text");

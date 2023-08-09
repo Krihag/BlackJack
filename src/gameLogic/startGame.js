@@ -1,4 +1,4 @@
-import startingCards from "../players/startingCards.js";
+import startingCards from "./startingCards.js";
 import players from "../players/players.js";
 
 const dealCardsBtn = document.querySelector(".deal-cards");

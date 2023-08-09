@@ -1,6 +1,4 @@
 export default function updateScore(player) {
-  // player.cards[0].value[0] = 11;
-  // player.cards[1].value[0] = 11;
   player.score = player.cards
     .map((card) => card.value[0])
     .reduce((acc, cur) => acc + cur);
